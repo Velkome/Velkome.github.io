@@ -10,20 +10,30 @@ body {
   background-color: #000000;
 }
 
-.fish {
+.container {
+	max-width: 390px;
+}
+
+.game {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 200px 200px 200px;
+}
+
+.quill {
   display: flex;
   position: fixed;
-  top: 18.5%;
-  left: 40%;
+  top: 20.9%;
+  left: 43%;
   align-items: center;
   justify-content: center;
 }
 
-.fish img {
+/* .quill img {
   width: 50px;
   height: 50px;
   margin-right: 14px;
-}
+} */
 
 .score {
   font-family: 'Irish Grover', cursive;
@@ -40,7 +50,7 @@ body {
   left: 40%;
 }
 
-/* .flamingoTap img {
+.flamingoTap img {
   width: 150px;
   height: 300px;
   border-radius: 50%;
@@ -49,7 +59,7 @@ body {
   --tiltX: 0deg;
   --tiltY: 0deg;
   transform: rotateX(var(--tiltX)) rotateY(var(--tiltY));
-}  */
+} 
 
 .friend {
   position: fixed;
@@ -83,7 +93,7 @@ body {
 
 .flamingoText {
   font-family: 'Irish Grover', cursive;
-  color: #2AC9AF;
+  color: #FF6767;
   position: fixed;
   top: 0%;
   left: 40%;
