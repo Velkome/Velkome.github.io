@@ -51,14 +51,9 @@ body {
 }
 
 .flamingoTap img {
-  width: 150px;
-  height: 300px;
-  border-radius: 50%;
-  box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.05);
-  transition: transform 0.2s ease;
-  --tiltX: 0deg;
-  --tiltY: 0deg;
-  transform: rotateX(var(--tiltX)) rotateY(var(--tiltY));
+  position: fixed;
+  top: 5%;
+  left: 32%;
 } 
 
 .friend {
