@@ -21,7 +21,7 @@ function setScore(score) {
 
 function setImage() {
   if (getScore() >= 50) {
-    $flamingoTap.setAttribute('src', './assets/lamingo.jpg')
+    $flamingoTap.setAttribute('src', './assets/glamingo.jpg')
   }
 }
 
